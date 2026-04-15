@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY PORTOFOLIO</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      .hero {
+        padding: 100px 0;
+        background-color: #f3f6f8;
+      }
+      .portfolio-card img {
+        height: 200px;
+        object-fit: cover;
+      }
+      section {
+        padding: 60px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">MY PORTFOLIO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero text-center">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Halo, Saya DINI RAHMAWATI</h1>
+        <p class="lead">Mahasiswa pendidikan Informatika</p>
+        <a href="#projects" class="btn btn-primary btn-lg"
+          >Aktivitas saya dikampus</a
+        >
+      </div>
+    </section>
+
+    <section id="about" class="bg-white">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Tentang Saya</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <p>
+              Saya adalah seorang mahasiswa yang suka semua tentang hal baru
+              dalam dunia informatika. Saya senang mempelajari teknologi baru
+              dan mengubah ide menjadi website yang interaktif dan fungsional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Aktivitas" class="bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">Aktivitas di kampus</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card portfolio-card shadow-sm">
+              <img
+                src="https://via.placeholder.com/300x200"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Website Toko Online</h5>
+                <p class="card-text">
+                  Dibuat menggunakan HTML, CSS, dan Bootstrap.
+                </p>
+                <a href="#" class="btn btn-outline-dark btn-sm">Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card portfolio-card shadow-sm">
+              <img
+                src="https://via.placeholder.com/300x200"
+                class="card-img-top"
+                alt="Project 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aplikasi Kasir</h5>
+                <p class="card-text">
+                  Sistem manajemen stok barang berbasis web sederhana.
+                </p>
+                <a href="#" class="btn btn-outline-dark btn-sm">Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card portfolio-card shadow-sm">
+              <img src="JPG.jpg" class="JPG.jpg" alt="Project 3" />
+              <div class="card-body">
+                <h5 class="card-title">Landing Page Event</h5>
+                <p class="card-text">
+                  Website responsif untuk pendaftaran seminar kampus.
+                </p>
+                <a href="#" class="btn btn-outline-dark btn-sm">Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">Hubungi Saya</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Nama Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Masukkan nama..."
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="nama@email.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Pesan</label>
+                <textarea class="form-control" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark w-100">
+                Kirim Pesan
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-0">&copy; 2024 [Nama Kamu]. Dibuat dengan Bootstrap.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
